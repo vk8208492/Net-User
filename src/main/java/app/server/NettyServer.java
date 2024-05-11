@@ -9,7 +9,7 @@ import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 
 
-public class NettyServer {
+public final class NettyServer {
 
     static final int PORT = 8001;
 

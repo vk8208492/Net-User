@@ -8,7 +8,7 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 
-public class  NettyUser {
+public final class NettyUser {
 
     static final String HOST = "127.0.0.1";
     static final int PORT = 8001;
